@@ -1,4 +1,4 @@
- package teste;
+ando package teste;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -23,20 +23,20 @@ public class Main {
 		
 		List<Aluno> alunos = new ArrayList<>();
 		
-		Aluno a1 = new Aluno("fedcba", "Davi Gomes", "SP305758X");
+		Aluno a1 = new Aluno("fedcba", " Fernado fritas", "SP3088754");
 		a1.adicionarNota(new Nota(7.6));
-		a1.adicionarNota(new Nota(6.5));
-		a1.adicionarNota(new Nota(3.6));
+		a1.adicionarNota(new Nota(9.5));
+		a1.adicionarNota(new Nota(8.6));
 		
-		Aluno a2 = new Aluno("xyzabc", "Giovanny Foliene", "SP355538X");
+		Aluno a2 = new Aluno("xyzabc", "Gabriel Rocha", "SP355538X");
 		a2.adicionarNota(new Nota(8.6));
 		a2.adicionarNota(new Nota(9.3));
 		a2.adicionarNota(new Nota(0.0));
 		
-		Aluno a3 = new Aluno("aorbwjg", "Lucas Milhomem", "SP3088715");
-		a3.adicionarNota(new Nota(3.5));
+		Aluno a3 = new Aluno("aorbwjg", "Zorzetto", "SP3088715");
+		a3.adicionarNota(new Nota(7.5));
 		a3.adicionarNota(new Nota(6.0));
-		a3.adicionarNota(new Nota(4.5));
+		a3.adicionarNota(new Nota(7.5));
 		
 		alunos.add(a1);
 		alunos.add(a2);
