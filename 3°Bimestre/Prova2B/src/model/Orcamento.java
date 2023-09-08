@@ -9,7 +9,6 @@ public class Orcamento implements ExibirInterface{
     private long id;
     public List<ItemPedido> itens = new ArrayList<>();
     private double valorTotal;
-    //Não tinha declarado eles como "private".
 
     public Orcamento() {
         this.id = idBase++;
